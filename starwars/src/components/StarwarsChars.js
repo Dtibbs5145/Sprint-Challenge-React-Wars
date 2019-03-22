@@ -1,15 +1,16 @@
 import React from 'react';
-import StarwarsChar from './StarwarsChar';
+import StarWarsChar from './StarWarsChar';
+import './StarWars.css';
 
-const StarwarsChars = props => {
+function StarWarsChars(props) {
     return (
         <div className='character-card'>
-            <ul>{props.chars.map( char => {
-                return <StarwarsChar char={char} />;
+            <ul>{props.chars.map(char => {
+                return <StarWarsChar char={char} />;
             })}
             </ul>
         </div>
-    );
+    )
 }
 
-export default StarwarsChars;
+export default StarWarsChars;

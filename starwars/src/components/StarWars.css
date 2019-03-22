@@ -1,11 +1,24 @@
-h2 {
-    color: rgb(53, 7, 7);
+.character-card {
+    border: 2px solid rgba(255, 0, 0, 0.479);
+
 }
 
-.characterContainer {
+.starWarsChar {
     background: #ec83535b;
     border: 2px solid rgba(0, 0, 0, 0.432);
     margin-right: 20px;
+}
+
+.character {
+    border: 2px solid rgba(255, 0, 0, 0.575);
+}
+
+.details {
+    border: 2px solid rgba(255, 0, 0, 0.575)
+}
+
+h2 {
+    color: rgb(53, 7, 7);
 }
 
 p {
