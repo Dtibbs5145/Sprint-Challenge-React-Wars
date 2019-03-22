@@ -1,0 +1,28 @@
+.character-card {
+    margin-right: 35px;
+}
+
+.starWarsChar {
+    
+    border: 2px solid rgba(0, 0, 0, 0.432);
+}
+/* 
+.character {
+    border: 2px solid rgba(255, 0, 0, 0.575);
+} */
+
+.details {
+    border: 3px solid rgba(139, 24, 24, 0.575);
+    margin-bottom: 1px;
+    background: #ec7e4b5b;
+}
+
+h2 {
+    color: rgb(53, 7, 7);
+}
+
+p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
