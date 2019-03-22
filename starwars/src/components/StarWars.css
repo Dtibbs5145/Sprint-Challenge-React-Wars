@@ -1,12 +1,11 @@
 .character-card {
-    height: 400px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
 .starWarsChar {
-    background: #ec83535b;
+    
     border: 2px solid rgba(0, 0, 0, 0.432);
-    margin-right: 20px;
 }
 /* 
 .character {
@@ -14,8 +13,9 @@
 } */
 
 .details {
-    border: 2px solid rgba(255, 0, 0, 0.575);
-
+    border: 3px solid rgba(139, 24, 24, 0.575);
+    margin-bottom: 1px;
+    background: #ec7e4b5b;
 }
 
 h2 {
@@ -24,5 +24,6 @@ h2 {
 
 p {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
 }
+
